@@ -1,0 +1,8 @@
+.corp-node {
+  position: absolute;
+  display: block;
+  border: 0.5px solid gainsboro;
+  background-color: black;
+  font-size: 6px;
+  box-sizing: border-box;
+}

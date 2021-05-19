@@ -1,0 +1,13 @@
+.corp-shell {
+  background-color: #003300;
+  color: gainsboro;
+  padding: 10px;
+  margin: 2em auto;
+}
+
+.corp-network {
+  background-color: #001100;
+  border: 1px solid black;
+  margin: 10px auto;
+  position: relative;
+}
