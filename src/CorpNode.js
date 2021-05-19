@@ -5,7 +5,7 @@ const bgColors = {
   open: '#001100',
   chest: '#001100',
   store: '#001100',
-  ice: '#999933',
+  ice: '#DDCC00',
   special: '#666622',
 };
 
