@@ -10,4 +10,5 @@
   border: 1px solid black;
   margin: 10px auto;
   position: relative;
+  background-image: url(http://localhost:3000/template.png);
 }
