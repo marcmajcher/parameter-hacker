@@ -1,8 +1,21 @@
 .corp-node {
-  position: absolute;
-  display: block;
-  border: 0.5px solid gainsboro;
   background-color: black;
-  font-size: 6px;
+  border: 0.5px solid gainsboro;
   box-sizing: border-box;
+  color: red;
+  display: block;
+  font-size: 1em;
+  /* opacity: 0.5; */
+  position: absolute;
+  text-align: left;
+}
+
+.corp-node .status { 
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.corp-node .lock {
+  text-align: center;
 }
