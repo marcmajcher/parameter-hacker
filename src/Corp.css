@@ -1,12 +1,11 @@
 .corp-shell {
   background-color: #003300;
   color: gainsboro;
-  margin: 2em auto;
+  margin: 0 auto;
   padding: 10px;
 }
 
 .corp-network {
-  /* background-image: url(http://localhost:3000/template.png); */
   background-color: #000000;
   border: 1px solid black;
   margin: 10px auto;

@@ -94,8 +94,8 @@ export const corp = {
     { id: 'par_071', x: 620, y: 306, w: 164, h: 76, lock: true, type: 'ice', health: 82 },
     { id: 'par_072', x: 688, y: 390, w: 96, h: 70, lock: true, type: 'open' },
     { id: 'par_073', x: 512, y: 468, w: 332, h: 32, lock: true, type: 'ice', health: 166 },
-    { id: 'par_074', x: 616, y: 508, w: 450, h: 136, lock: true, type: 'ice', health: 226 },//.
-    { id: 'par_075', x: 222, y: 652, w: 844, h: 32, lock: true, type: 'ice', health: 424 },//.
+    { id: 'par_074', x: 616, y: 508, w: 450, h: 136, lock: true, type: 'ice', health: 226 },
+    { id: 'par_075', x: 222, y: 652, w: 844, h: 32, lock: true, type: 'ice', health: 424 },
     { id: 'par_076', x: 4, y: 824, w: 74, h: 74, lock: false, type: 'chest' },
     { id: 'par_077', x: 86, y: 824, w: 400, h: 28, lock: true, type: 'ice', health: 200 },
     { id: 'par_078', x: 86, y: 860, w: 268, h: 38, lock: true, type: 'open' },
@@ -109,7 +109,7 @@ export const corp = {
     { id: 'par_086', x: 998, y: 732, w: 148, h: 56, lock: true, type: 'open' },
     { id: 'par_087', x: 1154, y: 732, w: 262, h: 56, lock: true, type: 'open' },
     { id: 'par_088', x: 998, y: 692, w: 290, h: 32, lock: true, type: 'open' },
-    { id: 'par_089', x: 1074, y: 596, w: 134, h: 88, lock: true, type: 'open' },//.
+    { id: 'par_089', x: 1074, y: 596, w: 134, h: 88, lock: true, type: 'open' },
     { id: 'par_090', x: 1216, y: 634, w: 72, h: 50, lock: false, type: 'open' },
     { id: 'par_091', x: 1296, y: 574, w: 52, h: 150, lock: true, type: 'open' },
     { id: 'par_092', x: 1356, y: 574, w: 60, h: 150, lock: true, type: 'open' },

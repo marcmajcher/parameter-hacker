@@ -1,13 +1,12 @@
 import './App.css';
 import { corp } from './data/data';
 import Corp from './Corp';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App noselect">
-      <header className="App-header">
-        Parameter Hacker
-      </header>
+    <div className="app noselect">
+      <Header />
       <Corp corp={corp} />
     </div>
   );
