@@ -6,8 +6,8 @@
 }
 
 .corp-network {
-  background-image: url(http://localhost:3000/template.png);
-  background-color: #001100;
+  /* background-image: url(http://localhost:3000/template.png); */
+  background-color: #000000;
   border: 1px solid black;
   margin: 10px auto;
   position: relative;

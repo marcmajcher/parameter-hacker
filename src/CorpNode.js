@@ -25,7 +25,7 @@ export default function CorpNode({ node }) {
     ice: `${health}/${health}`,
   };
 
-  return <div className="corp-node" style={nodeStyle} onClick={() => console.log(id)}>
+  return <div className="corp-node" style={nodeStyle} onClick={() => console.log(id, x+w+8, y+h+8)}>
     <div className="status">{statii[type] || ''}</div>
     <div className="lock">{lock ? '🔒' : ''}</div>
   </div>;
