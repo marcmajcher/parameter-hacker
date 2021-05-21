@@ -18,6 +18,8 @@ const initialState = {
     attackMax: 10,
     defense: 10,
     defenseMax: 10,
+    missionStr: 100,
+    missionSwing: 10,
   },
   log: [{time: Date.now(), message: 'OUTPUT'}],
 };

@@ -1,7 +1,11 @@
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
+import useDice from './useDice';
 
 function useNode(node) {
   const [progress, setProgress] = useState(0);
+  const playerInfo = useSelector(s => s.playerInfo);
+  const roll = useDice(); 
 
   const className = `corp-node ${node.type}`;
   const complete = progress >= 100;
@@ -27,9 +31,14 @@ function useNode(node) {
     if (node.lock || complete) {
       return;
     }
-    setProgress(Math.min(100, progress + 5));
-  }
 
+    if (node.type === 'open') {
+      const playerProgress = playerInfo.missionStr + roll(playerInfo.missionSwing) - (playerInfo.missionSwing / 2)
+      const missionProgress = Math.round(playerProgress / node.missionSize * 100);
+
+      setProgress(Math.min(100, progress + missionProgress));
+    }
+  }
   return {
     className,
     click,
