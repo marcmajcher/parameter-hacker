@@ -3,7 +3,7 @@ export const stats = {
   cash: 0,
   silverKeys: 0,
   goldKeys: 0,
-  nekogames: [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  codeword: [],
   exp: 0,
   xpToNext: 100,
   life: 100,
@@ -18,11 +18,8 @@ export const stats = {
 };
 
 export const corp = {
-  width: 1500,
-  height: 1050,
-  gutter: 3,
   nodes: [
-    { id: 'par_001', x: 4, y: 4, w: 88, h: 28, lock: false, type: 'open' }, 
+    { id: 'par_001', x: 4, y: 4, w: 88, h: 28, lock: false, type: 'open',  }, 
     { id: 'par_002', x: 98, y: 4, w: 122, h: 28, lock: false, type: 'open' }, 
     { id: 'par_003', x: 4, y: 40, w: 216, h: 28, lock: true, type: 'ice', health: 108 }, 
     { id: 'par_004', x: 4, y: 76, w: 72, h: 64, lock: false, type: 'ice', health: 36 }, 

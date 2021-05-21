@@ -14,13 +14,30 @@
 
 .corp-node .status {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  margin: 2px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 100;
+}
+
+.corp-node .complete {
+  color: black;
 }
 
 .corp-node:hover .status {
-  margin: 1px;
+  top: 1px;
+  left: 1px;
+}
+
+.corp-node .progress {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 
 .corp-node .lock {
