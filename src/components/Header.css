@@ -1,4 +1,3 @@
-
 .header {
   background-color: #282c34;
   color: white;
@@ -6,12 +5,36 @@
   font-size: 1em;
   margin: 0 auto;
   min-height: 1.5em;
-  padding: 4px;
+  padding: 0 4px;
   width: 1532px;
+}
+
+.header label {
+  font-weight: bold;
 }
 
 .header-block {
   display: inline-block;
   text-align: left;
   width: 300px;
+  margin: 8px 0;
+}
+
+.header .output {
+  vertical-align: bottom;
+  border: 1px solid grey;
+  height: 5rem;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.header .output p {
+  margin: 0;
+}
+
+.combo-bar {
+  border: 1px solid #333399;
+  width: 100%;
+  height: 8px;
+  background: black;
 }

@@ -1,17 +1,26 @@
 .corp-node {
   background-color: black;
-  border: 0.5px solid gainsboro;
+  border: 1px solid gainsboro;
   box-sizing: border-box;
   display: block;
-  padding: 2px;
+  /* padding: 2px; */
   position: absolute;
   text-align: left;
 }
 
-.corp-node .status { 
+.corp-node:hover {
+  border: 2px solid gainsboro;
+}
+
+.corp-node .status {
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
+  margin: 2px;
+}
+
+.corp-node:hover .status {
+  margin: 1px;
 }
 
 .corp-node .lock {
@@ -19,6 +28,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
-
+.open {
+  background-color: #001100;
+}
+.chest {
+  background-color: #001100;
+}
+.store {
+  background-color: #001100;
+}
+.ice {
+  background-color: #ddcc00;
+}
+.special {
+  background-color: #666622;
 }

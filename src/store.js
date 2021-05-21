@@ -14,17 +14,18 @@ const initialState = {
     actionMax: 50,
     codeword: 'PARAMETERS',
     recover: 10,
-    recoverMax: 10,
     attack: 10,
     attackMax: 10,
     defense: 10,
     defenseMax: 10,
-  }
+  },
+  log: [{time: Date.now(), message: 'OUTPUT'}],
 };
 
 function reducer(state = initialState, action) {
   switch (action.type) {
-
+    case 'LOGGER':
+      return {...state, log: [...state.log, action.payload]}
     default:
       return state;
   }
