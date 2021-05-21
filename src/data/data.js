@@ -7,7 +7,7 @@ export const corp = {
     { id: 'par_003', x: 4, y: 40, w: 216, h: 28, lock: true, type: 'ice', health: 108 },
     { id: 'par_004', x: 4, y: 76, w: 72, h: 64, lock: false, type: 'ice', health: 36 },
     { id: 'par_005', x: 84, y: 76, w: 136, h: 28, lock: false, type: 'open', missionSize: 600 },
-    { id: 'par_006', x: 84, y: 112, w: 136, h: 28, lock: false, type: 'open', missionSize: 6000 },
+    { id: 'par_006', x: 84, y: 112, w: 136, h: 28, lock: false, type: 'open', missionSize: 600 },
     { id: 'par_007', x: 4, y: 148, w: 80, h: 162, lock: true, type: 'open', missionSize: 400, cost: 35 },
     { id: 'par_008', x: 92, y: 148, w: 56, h: 162, lock: true, type: 'open', missionSize: 250, cost: 15 },
     { id: 'par_009', x: 156, y: 148, w: 64, h: 58, lock: true, type: 'ice', health: 32 },
