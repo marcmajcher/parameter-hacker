@@ -1,0 +1,17 @@
+
+.header {
+  background-color: #282c34;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 1em;
+  margin: 0 auto;
+  min-height: 1.5em;
+  padding: 4px;
+  width: 1532px;
+}
+
+.header-block {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+}

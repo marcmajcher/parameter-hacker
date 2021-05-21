@@ -1,7 +1,7 @@
 import './App.css';
 import { corp } from './data/data';
-import Corp from './Corp';
-import Header from './Header';
+import Corp from './components/Corp';
+import Header from './components/Header';
 
 function App() {
   return (

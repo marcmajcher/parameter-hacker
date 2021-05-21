@@ -1,13 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
 body {
   background-color: black;
-  font-family: "Arial", "Roboto", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Space Mono", monospace;
 }
 
 .noselect {

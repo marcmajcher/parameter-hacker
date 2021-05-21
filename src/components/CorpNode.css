@@ -2,17 +2,15 @@
   background-color: black;
   border: 0.5px solid gainsboro;
   box-sizing: border-box;
-  color: red;
   display: block;
-  font-size: 1em;
-  /* opacity: 0.5; */
+  padding: 2px;
   position: absolute;
   text-align: left;
 }
 
 .corp-node .status { 
   color: white;
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
